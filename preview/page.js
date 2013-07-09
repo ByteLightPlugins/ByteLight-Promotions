@@ -7,6 +7,5 @@ if (BL.isTablet()) {
 $('.digital-coupon').css('background', '#313131 url(' + imageUrl + ') no-repeat center 24px');
 
 $('.digital-coupon').on('click', function() {
-  alert(APP.appId);
   BL.displayApp(APP.appId);
 });
