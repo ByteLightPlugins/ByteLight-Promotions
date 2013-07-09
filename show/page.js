@@ -1,0 +1,1 @@
+$('iframe').attr('src', BL.getSettings().promo_url[0]);
